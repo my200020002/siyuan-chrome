@@ -198,7 +198,7 @@ const scrollTo1 = (callback) => {
   if (toggle) {
     scrollTimer = setInterval(function () {
       window.scrollBy(0, -window.innerHeight);
-    }, 666);
+    }, 5);
   } else {
     clearInterval(scrollTimer);
   }
